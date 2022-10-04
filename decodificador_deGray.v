@@ -12,12 +12,17 @@
 
 
 module decodificador_deGray(
+    input clk,
     input [3:0] a,
-    output [3:0] led
+    output [3:0] led,
+    output [7:0] anodo,
+    output [6:0] catodos
     );
     
     wire [3:0] bin;
     
     lectura_codigoGray L (a, bin); // L por lectura
     encender_lucesLED E (bin, led); //E por encender
+    display_7segmentos S (clk, bin, anodo, catodos); //S por segmentos
+    
 endmodule
