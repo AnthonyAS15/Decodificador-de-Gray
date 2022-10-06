@@ -5,7 +5,7 @@
 // 
 // Nombre del Módulo: catodos_BCD
 // Nombre del Proyecto: Introduccion a HDL
-// Descripción: 
+// Descripción: A partir del digito, decide la forma de este en codigo de catodos.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 

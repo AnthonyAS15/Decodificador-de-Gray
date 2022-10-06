@@ -5,7 +5,7 @@
 // 
 // Nombre del Módulo: divisor_reloj
 // Nombre del Proyecto: Introduccion a HDL
-// Descripción: 
+// Descripción: Divide la frecuencia del reloj en la frecuencia deseada.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -32,7 +32,7 @@ module divisor_reloj(
     always @ (posedge clk)
         begin
             if (contador == divisor)
-                clk_dividido <= ~clk_dividido; //Negar la señal
+                clk_dividido <= ~clk_dividido; //Invertir la señal
             else
                 clk_dividido <= clk_dividido; //Almacenar el valor
         end

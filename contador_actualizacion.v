@@ -5,7 +5,7 @@
 // 
 // Nombre del Módulo: contador_actualizacion
 // Nombre del Proyecto: Introduccion a HDL
-// Descripción: 
+// Descripción: Cuenta para decidir el anodo que se va a usar.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 

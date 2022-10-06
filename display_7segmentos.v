@@ -5,7 +5,7 @@
 // 
 // Nombre del Módulo: display_7segmentos
 // Nombre del Proyecto: Introduccion a HDL
-// Descripción: 
+// Descripción: Despliega el codigo en binario en el display de 7 segmentos.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -22,10 +22,10 @@ module display_7segmentos(
     wire [3:0] digito;
     
     divisor_reloj D (clk, reloj_actualizacion); //D por divisor
-    contador_actualizacion C (reloj_actualizacion, contador_actualizar); //C por contador;
+    contador_actualizacion C (reloj_actualizacion, contador_actualizar); //C por contador
     
-    control_anodo A (contador_actualizar, anodo); //A por anodo;
+    control_anodo A (contador_actualizar, anodo); //A por anodo
     control_BCD BCD (bin, contador_actualizar, digito); //BCD
-    catodos_BCD CS (digito, catodos); //CS por catodos.
+    catodos_BCD CS (digito, catodos); //CS por catodos
     
 endmodule

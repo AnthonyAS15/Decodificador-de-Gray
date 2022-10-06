@@ -5,7 +5,7 @@
 // 
 // Nombre del Módulo: control_anodo
 // Nombre del Proyecto: Introduccion a HDL
-// Descripción: 
+// Descripción: Enciende el anodo a partir del contador.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -18,8 +18,8 @@ module control_anodo(
     always @ (contador_actualizar)
         begin
             case (contador_actualizar)
-                2'b0: anodo = 8'b11111110; //Encender digito 1 (unidades)
-                2'b1: anodo = 8'b11111101; //Encender digito 2 (decenas)
+                1'b0: anodo = 8'b11111110; //Encender digito 1 (unidades)
+                1'b1: anodo = 8'b11111101; //Encender digito 2 (decenas)
             endcase
         end
     

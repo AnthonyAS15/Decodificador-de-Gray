@@ -36,4 +36,5 @@ module lectura_codigoGray(
                 4'b1000: bin = 4'b1111; // 15 binario
             endcase
         end
+        
 endmodule
