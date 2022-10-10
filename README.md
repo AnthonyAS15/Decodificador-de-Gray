@@ -61,3 +61,51 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 
 
+
+
+
+
+
+
+
+
+
+##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##  Reporte de velocidades máximas de reloj posibles
+
+
+
+
+
+
+
+
+
+##  Principales problemas hallados durante el trabajo y de las soluciones aplicadas
+
+•	Instalar Programas Vivado
+
+En la instalación del programa Vivado 2018.3 existieron varias dificultades a la hora de descargarlo, debido a que no  dejaba instalarlo de la manera correcta, por lo que se decidio acudir a la ayuda del Prof. Kaleb Alfaro Badilla, el cual me proporcionó el link de instalación del programa. La ayuda facilito el proceso de instalacion, sin embargo, nuevamente se presentaron dificultades al momento de la validación de la cuenta, sin embargo, esto pudo ser solucionado al usar el correo institucional, en lugar del personal.
+
+•	Generar las pruebas de banco o testbenches necesarios
+
+Parte del proceso...
+
+
