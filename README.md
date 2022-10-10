@@ -27,7 +27,7 @@ Este subsistema toma los datos en código binario del primer subsistema, y su re
 
 
 ## Funcionamiento fundamental
-### Subsistema de lectura y decodificación de código Gray
+### • Subsistema de lectura y decodificación de código Gray
 
 El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, los datos recibidos son transformados a código binario.
 
@@ -39,7 +39,7 @@ Primeramente, tal y como se observa en el diagrama de bloques, el parametro de e
 
 
 
-### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
+### • Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
 El subsistema toma los datos ya convertidos a código binario en el subsistema anterior, y los desplegara en 4 luces LED
 
@@ -51,7 +51,7 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 
 
-### Subsistema de despliegue de código decodificado en display de 7 segmentos
+### • Subsistema de despliegue de código decodificado en display de 7 segmentos
 
 Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con LEDs, para representarlo finalmente en el display de 7 segmentos.
 
