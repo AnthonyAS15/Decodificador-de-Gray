@@ -11,7 +11,7 @@ Nombre del Proyecto: Introduccion a HDL
 Por medio del SystemVerilog y la suite de herramientas de Vivado para desarrollar el sistema completo se trabajará con una FPGA Nexys 4 DDR. Donde se van a recibir 4 entradas por medio de conmutadores en código de Gray. Estas entradas van a ser traducidas a código binario y esto va a ser evidenciado por medio del encendido de 4 leds en dicho código. Finalmente, se tomarán los datos en código binario y se desplegarán en el display de 7 segmentos de la placa en sistema decimal.
 
 
-   Tabla 1: Código Gray de 4 bits a implementar.
+####Tabla 1: Código Gray de 4 bits a implementar.
 
  ![gggg](https://user-images.githubusercontent.com/110042626/194808617-157f27db-a59a-495e-ac99-62b6ac1318bc.PNG)
 
