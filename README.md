@@ -15,10 +15,6 @@ Por medio del SystemVerilog y la suite de herramientas de Vivado para desarrolla
 
  ![gggg](https://user-images.githubusercontent.com/110042626/194808617-157f27db-a59a-495e-ac99-62b6ac1318bc.PNG)
 
-	
-
-
-
 
 ### Subsistema de lectura y decodificación de código Gray
 El subsistema de lectura tomará cuatro conmutadores. Luego de esto, los datos recibidos son transformados de código de Gray a código binario, previo a enviarse al siguiente subsistema.
@@ -37,10 +33,11 @@ El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, l
 
 #### Diagrama de Bloques:
 
-![194486134-90e57969-9439-4b05-a338-b7f297bd80a4](https://user-images.githubusercontent.com/110042626/194795708-cb491c98-03eb-46f2-a12e-eb9a159d5ac2.jpg)
-
+![lectura](https://user-images.githubusercontent.com/110042626/194828892-24d7c135-d5d5-4efa-920d-3cc75b72f766.jpg)
 
 Primeramente, tal y como se observa en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar".
+
+
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
@@ -48,9 +45,11 @@ El subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformad
 
 #### Diagrama de Bloques:
 
-![194486013-ec33d9ab-e7c4-4301-a9b9-4a03abb0ea36](https://user-images.githubusercontent.com/110042626/194795738-24175caf-2cc0-44c8-b2df-3097765068dd.png)
+![leds](https://user-images.githubusercontent.com/110042626/194828957-4c45f1c9-35b4-42e5-98ef-dcb4db6aea9e.jpg)
 
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario.
+
+
 
 ### Subsistema de despliegue de código decodificado en display de 7 segmentos
 
@@ -63,7 +62,8 @@ Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray,
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces LED; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
 
 
-### Diagrama de Bloques: Representacion general (VIVADO)
+
+### Diagrama de Bloques: Representacion VIVADO
 
 ![d5d8b3a0-5005-492a-93b9-d065536167dd](https://user-images.githubusercontent.com/110042626/194796472-c744d1e3-d0a3-4859-8be5-923160706dde.jpg)
 
