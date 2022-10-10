@@ -57,8 +57,7 @@ Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray,
 
 #### Diagrama de Bloques:
 
-![Diseño Diagramas3 0-Página-7 drawio](https://user-images.githubusercontent.com/110042626/194846531-51102490-02a3-4309-aad1-a83339b81f95.png)
-
+![Diseño Diagramas3 0-Página-7 drawio](https://user-images.githubusercontent.com/110042626/194848105-01ceef53-071f-4ad7-8b94-37b096ee89ce.png)
 
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces LED; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
 
