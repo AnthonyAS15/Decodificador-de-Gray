@@ -1,7 +1,7 @@
 # Introduccion-a-HDL
 Universidad: TEC
 
-Ingenieros: [Anthony Artavia](https://github.com/AnthonyAS15). - Diego Huertas - Justin Segura
+Ingenieros: [Anthony Artavia](https://github.com/AnthonyAS15) - [Diego Huertas](https://github.com/ElRiquitix) - [Justin Segura](https://github.com/Justinsegurar)
 
 Proyecto II: Introducción a diseño digital en HDL
 
