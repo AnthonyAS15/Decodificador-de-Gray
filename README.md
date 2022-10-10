@@ -71,13 +71,14 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 Primeramente, como ejemplo, escogimos un Código Gray de 4 bits para poner a prueba los subsistemas. Para este caso se utilizó el ejemplo '0100' en código de gray, para ingresarlo utilizamos cuatro conmutadores, los cuatro switches, y los activamos en base a '0'=Switch abajo '1'=Switch arriba. Una vez ingresados el código se hace uso del primer subsistema para convertir su valor en binario; seguidamente del segundo subsistema que buscara representar este código binario, previamente obtenido, por medio de luces LED, para este ejemplo obtendriamos '0111' ('0'=LED apagada '1'=LED encendida).
 
-Representacion binario en LED:
+#### Representacion binario en LED:
 
 ![5d03217d-df31-4332-a1d5-ef1776590c27](https://user-images.githubusercontent.com/110042626/194809613-14947096-0fa4-4260-b75e-d29d243bbb61.jpg)
 
 Seguidamente, para la realización del último subsistema, se toman los datos en binario que ya tenemos para trabajarlo de forma decimal. A partir del valor del número en binario, representado por las LED, se define su valor decimal en el display de 7 segmentos; por medio del número obtenemos 2 valores, el ánodo es la parte positiva del LED dentro del panel y los cátodos la cantidad de paneles a utilizar, dependiendo de la base del número. Para el ejemplo se está utilizando ('0111'='7'), solo se utiliza el primer panel 'bo', debió a que el número del ejemplo es una sola unidad, y se encienden las led dentro del panel que representan el número.
 
-Representacion decimal display de 7 segmento:
+#### Representacion decimal display de 7 segmento:
+
 ![322405df-aea4-49c4-b77d-aa7bd82c38ca](https://user-images.githubusercontent.com/110042626/194809417-47fe98f5-c9a1-4fab-9753-68fc0cdadd72.jpg)
 
 #### Análisis de una simulación:
