@@ -81,11 +81,9 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 
 
+![a7f4a2af-69c9-49c2-82a9-c143423ab4f9](https://user-images.githubusercontent.com/110042626/194809162-fcc36c10-1c6c-4669-b31c-85824ac0cac1.jpg)
 
 
-
-
-![ffffffffffffffffffff2](https://user-images.githubusercontent.com/110042626/194808007-efd9c09c-32e0-4e5d-baed-1a94ed42435b.jpg)
 
 
 
