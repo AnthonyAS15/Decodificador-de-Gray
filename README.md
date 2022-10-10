@@ -22,9 +22,14 @@ Este subsistema toma los datos en código binario del primer subsistema, y su re
 
 ## Funcionamiento fundamental
 ### Subsistema de lectura y decodificación de código Gray
+
+El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, los datos recibidos son transformados a código binario.
+
 #### Diagrama de Bloques:
 
 ![Capture](https://user-images.githubusercontent.com/110042626/194794808-328a7e98-f7cc-44cd-9343-8f0244a8cdae.PNG)
+
+Primeramente, tal y como se observa en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la targeta por medio de cuatro luces LED, que representaran su respectivo codigo binario.
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
