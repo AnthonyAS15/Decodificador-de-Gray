@@ -10,6 +10,14 @@ Nombre del Proyecto: Introduccion a HDL
 ## Funcionamiento general
 Por medio del SystemVerilog y la suite de herramientas de Vivado para desarrollar el sistema completo se trabajará con una FPGA Nexys 4 DDR. Donde se van a recibir 4 entradas por medio de conmutadores en código de Gray. Estas entradas van a ser traducidas a código binario y esto va a ser evidenciado por medio del encendido de 4 leds en dicho código. Finalmente, se tomarán los datos en código binario y se desplegarán en el display de 7 segmentos de la placa en sistema decimal.
 
+g		
+		
+gd		
+ 	ty	 r
+	r	t
+		
+		
+		
 
 
 
@@ -70,6 +78,16 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 
 
+
+![ffffffffff 1](https://user-images.githubusercontent.com/110042626/194807986-e38ddbe8-0563-4c65-9250-08b8f1397823.jpg)
+
+
+
+
+
+
+
+![ffffffffffffffffffff2](https://user-images.githubusercontent.com/110042626/194808007-efd9c09c-32e0-4e5d-baed-1a94ed42435b.jpg)
 
 
 
