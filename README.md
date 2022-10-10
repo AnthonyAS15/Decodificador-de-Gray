@@ -89,7 +89,7 @@ Representacion decimal display de 7 segmento:
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
-TESTBENCH
+No se que poner aca
 
 
 
