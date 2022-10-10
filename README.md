@@ -106,6 +106,6 @@ En la instalación del programa Vivado 2018.3 existieron varias dificultades a l
 
 •	Generar las pruebas de banco o testbenches necesarios
 
-Parte del proceso...
+Dentro de las dificultades al realizar las "Simulaciones RTL", al principio no se estaba definiendo el testbench como top en la aplicación del vivado, así que, al realizar la simulación, esta misma no ejecutaba la simulación del testbench, por lo cual, a la hora de simularla aparecía en términos de impedancias. Al momento de cambiarlo, se pudieron realizar las pruebas con éxito dentro del plazo establecido.
 
 
