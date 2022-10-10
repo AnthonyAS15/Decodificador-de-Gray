@@ -83,26 +83,26 @@ Seguidamente, para la realización del último subsistema, se toman los datos en
 
 #### Análisis de una simulación:
 
-
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
-No se que poner aca
 
-
-
-
-
-
-
-
-
-
-
-
+![194800086-dc826b6d-9e3b-415b-bf05-c1fb8362120c](https://user-images.githubusercontent.com/110042626/194830660-d02e6981-6ced-489a-84e4-bacd73d0cf8a.jpg)
 
 
 
@@ -113,9 +113,6 @@ No se que poner aca
 
 
 ![9e9f7cb9-69fe-4741-bf7e-9780bf5a379b](https://user-images.githubusercontent.com/110042626/194801244-04c56e33-6ed4-4c0f-b81a-bf7967a85e73.jpg)
-
-
-
 
 
 
