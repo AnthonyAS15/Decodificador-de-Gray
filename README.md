@@ -27,22 +27,32 @@ El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, l
 
 #### Diagrama de Bloques:
 
-![Capture](https://user-images.githubusercontent.com/110042626/194794808-328a7e98-f7cc-44cd-9343-8f0244a8cdae.PNG)
+![194486013-ec33d9ab-e7c4-4301-a9b9-4a03abb0ea36](https://user-images.githubusercontent.com/110042626/194795738-24175caf-2cc0-44c8-b2df-3097765068dd.png)
 
-Primeramente, tal y como se observa en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la targeta por medio de cuatro luces LED, que representaran su respectivo codigo binario.
+Primeramente, tal y como se observa en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar".
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
+El subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario.
+
+Diagrama de Bloques:
+
+![194486134-90e57969-9439-4b05-a338-b7f297bd80a4](https://user-images.githubusercontent.com/110042626/194795708-cb491c98-03eb-46f2-a12e-eb9a159d5ac2.jpg)
+
+AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario.
+
 ### Subsistema de despliegue de código decodificado en display de 7 segmentos
+
+Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con LEDs.
+
 Diagrama de Bloques:
 
 ![194472894-b720fe69-046f-4f92-96e9-ab307fe911aa](https://user-images.githubusercontent.com/110042626/194795104-07a0b308-c1b0-4d4c-a7bb-1cc5055f2630.png)
 
 
+### Representacion general
 
-
-
-
+![d5d8b3a0-5005-492a-93b9-d065536167dd](https://user-images.githubusercontent.com/110042626/194796472-c744d1e3-d0a3-4859-8be5-923160706dde.jpg)
 
 
 
