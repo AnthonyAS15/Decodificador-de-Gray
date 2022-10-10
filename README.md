@@ -1,5 +1,6 @@
 # Introduccion-a-HDL
 Universidad: TEC
+
 Ingenieros: Anthony Artavia - Diego Huertas - Justin Segura
 
 Proyecto II: Introducción a diseño digital en HDL
