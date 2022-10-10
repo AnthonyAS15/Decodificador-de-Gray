@@ -13,7 +13,7 @@ Por medio del SystemVerilog y la suite de herramientas de Vivado para desarrolla
 
                        Tabla 1: Código Gray de 4 bits a implementar.
 
-![gggg](https://user-images.githubusercontent.com/110042626/194808617-157f27db-a59a-495e-ac99-62b6ac1318bc.PNG)
+      ![gggg](https://user-images.githubusercontent.com/110042626/194808617-157f27db-a59a-495e-ac99-62b6ac1318bc.PNG)
 
 	
 
