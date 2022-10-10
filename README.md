@@ -18,3 +18,23 @@ Recibe los datos ya convertidos a código binario en el subsistema anterior, y l
 ### Subsistema de despliegue de código decodificado en display de 7 segmentos
 Este subsistema toma los datos en código binario del primer subsistema, y su representación en 4 luces LED, desplegarlos en los dispositivos 7 segmentos disponibles en la placa, de forma decimal.
 
+
+## Funcionamiento fundamental
+### Subsistema de lectura y decodificación de código Gray
+Diegrama de Bloques
+![Capture](https://user-images.githubusercontent.com/110042626/194794808-328a7e98-f7cc-44cd-9343-8f0244a8cdae.PNG)
+
+### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
+
+### Subsistema de despliegue de código decodificado en display de 7 segmentos
+
+
+
+
+
+
+
+
+
+
+
