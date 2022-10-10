@@ -22,14 +22,16 @@ Este subsistema toma los datos en código binario del primer subsistema, y su re
 
 ## Funcionamiento fundamental
 ### Subsistema de lectura y decodificación de código Gray
-Diegrama de Bloques
+#### Diagrama de Bloques:
+
 ![Capture](https://user-images.githubusercontent.com/110042626/194794808-328a7e98-f7cc-44cd-9343-8f0244a8cdae.PNG)
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
 ### Subsistema de despliegue de código decodificado en display de 7 segmentos
+Diagrama de Bloques:
 
-
+![194472894-b720fe69-046f-4f92-96e9-ab307fe911aa](https://user-images.githubusercontent.com/110042626/194795104-07a0b308-c1b0-4d4c-a7bb-1cc5055f2630.png)
 
 
 
