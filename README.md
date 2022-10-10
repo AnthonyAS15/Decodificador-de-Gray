@@ -1,4 +1,4 @@
-# Introduccion-a-HDL
+# Decodificador de Gray
 Universidad: TEC
 
 Ingenieros: [Anthony Artavia](https://github.com/AnthonyAS15) - [Diego Huertas](https://github.com/ElRiquitix) - [Justin Segura](https://github.com/Justinsegurar)
