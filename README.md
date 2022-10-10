@@ -41,7 +41,7 @@ Primeramente, tal y como se observa en el diagrama de bloques, el parametro de e
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
 
-El subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario.
+El subsistema toma los datos ya convertidos a código binario en el subsistema anterior, y los desplegara en 4 luces LED
 
 #### Diagrama de Bloques:
 
@@ -53,7 +53,7 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 ### Subsistema de despliegue de código decodificado en display de 7 segmentos
 
-Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con LEDs.
+Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con LEDs, para representarlo finalmente en el display de 7 segmentos.
 
 #### Diagrama de Bloques:
 
