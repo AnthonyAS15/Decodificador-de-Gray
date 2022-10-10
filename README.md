@@ -72,7 +72,7 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
-
+TESTBENCH
 
 
 
@@ -91,7 +91,10 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 ##  Reporte de velocidades máximas de reloj posibles
 
 
+![bd213152-ad7a-4fda-9e24-2e82d0307d07](https://user-images.githubusercontent.com/110042626/194801235-36d773a5-4554-4667-8dd1-29996cbbc452.jpg)
 
+
+![9e9f7cb9-69fe-4741-bf7e-9780bf5a379b](https://user-images.githubusercontent.com/110042626/194801244-04c56e33-6ed4-4c0f-b81a-bf7967a85e73.jpg)
 
 
 
