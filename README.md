@@ -11,7 +11,7 @@ Nombre del Proyecto: Introduccion a HDL
 Por medio del SystemVerilog y la suite de herramientas de Vivado para desarrollar el sistema completo se trabajará con una FPGA Nexys 4 DDR. Donde se van a recibir 4 entradas por medio de conmutadores en código de Gray. Estas entradas van a ser traducidas a código binario y esto va a ser evidenciado por medio del encendido de 4 leds en dicho código. Finalmente, se tomarán los datos en código binario y se desplegarán en el display de 7 segmentos de la placa en sistema decimal.
 
 
-####Tabla 1: Código Gray de 4 bits a implementar.
+#### Tabla 1: Código Gray de 4 bits a implementar.
 
  ![gggg](https://user-images.githubusercontent.com/110042626/194808617-157f27db-a59a-495e-ac99-62b6ac1318bc.PNG)
 
@@ -46,7 +46,7 @@ Primeramente, tal y como se observa en el diagrama de bloques, el parametro de e
 
 El subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario.
 
-Diagrama de Bloques:
+#### Diagrama de Bloques:
 
 ![194486013-ec33d9ab-e7c4-4301-a9b9-4a03abb0ea36](https://user-images.githubusercontent.com/110042626/194795738-24175caf-2cc0-44c8-b2df-3097765068dd.png)
 
@@ -56,31 +56,31 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con LEDs.
 
-Diagrama de Bloques:
+#### Diagrama de Bloques:
 
 ![194472894-b720fe69-046f-4f92-96e9-ab307fe911aa](https://user-images.githubusercontent.com/110042626/194795104-07a0b308-c1b0-4d4c-a7bb-1cc5055f2630.png)
 
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces LED; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
 
 
-### Diagrama de Bloques: Representacion general
+### Diagrama de Bloques: Representacion general (VIVADO)
 
 ![d5d8b3a0-5005-492a-93b9-d065536167dd](https://user-images.githubusercontent.com/110042626/194796472-c744d1e3-d0a3-4859-8be5-923160706dde.jpg)
 
 ##  Ejemplo y análisis de una simulación
 
-Primeramente, como ejemplo, escogimos un Código Gray de 4 bits para poner a prueba los subsistemas. Para este caso se utilizó el ejemplo '0100' en código de gray, para ingresarlo utilizamos cuatro conmutadores, los cuatro switches, y los activamos en base a '0'=Switch abajo '1'=Switch arriba. Una vez ingresados el código se hace uso del primer subsistema para convertir su valor en binario; seguidamente del segundo subsistema que buscara representar este código binario, previamente obtenido, por medio de luces LED.
+Primeramente, como ejemplo, escogimos un Código Gray de 4 bits para poner a prueba los subsistemas. Para este caso se utilizó el ejemplo '0100' en código de gray, para ingresarlo utilizamos cuatro conmutadores, los cuatro switches, y los activamos en base a '0'=Switch abajo '1'=Switch arriba. Una vez ingresados el código se hace uso del primer subsistema para convertir su valor en binario; seguidamente del segundo subsistema que buscara representar este código binario, previamente obtenido, por medio de luces LED, para este ejemplo obtendriamos '0111' ('0'=LED apagada '1'=LED encendida).
 
 Representacion binario en LED:
 
 ![5d03217d-df31-4332-a1d5-ef1776590c27](https://user-images.githubusercontent.com/110042626/194809613-14947096-0fa4-4260-b75e-d29d243bbb61.jpg)
 
-Seguidamente, para la realización del último subsistema, se toman los datos en binario que ya tenemos para trabajarlo de forma decimal. A partir del valor del número en binario, representado por las LED, se define su valor decimal en el display de 7 segmentos; por medio del número obtenemos 2 valores, el ánodo es la parte positiva del LED dentro del panel y los cátodos la cantidad de paneles a utilizar, dependiendo de la base del número. Para el ejemplo se está utilizando ('0111'='7'), solo se utiliza un panel 'bo' debió a que el número es una sola unidad, y se encienden el led dentro del panel que representan el número.
+Seguidamente, para la realización del último subsistema, se toman los datos en binario que ya tenemos para trabajarlo de forma decimal. A partir del valor del número en binario, representado por las LED, se define su valor decimal en el display de 7 segmentos; por medio del número obtenemos 2 valores, el ánodo es la parte positiva del LED dentro del panel y los cátodos la cantidad de paneles a utilizar, dependiendo de la base del número. Para el ejemplo se está utilizando ('0111'='7'), solo se utiliza el primer panel 'bo', debió a que el número del ejemplo es una sola unidad, y se encienden las led dentro del panel que representan el número.
 
 Representacion decimal display de 7 segmento:
 ![322405df-aea4-49c4-b77d-aa7bd82c38ca](https://user-images.githubusercontent.com/110042626/194809417-47fe98f5-c9a1-4fab-9753-68fc0cdadd72.jpg)
 
-Análisis de una simulación:
+#### Análisis de una simulación:
 
 
 
