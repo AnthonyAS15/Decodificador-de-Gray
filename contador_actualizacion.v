@@ -12,12 +12,16 @@
 
 module contador_actualizacion(
     input reloj_actualizacion,
+    input reset,
     output reg contador_actualizar = 0
     );
 
-    always @ (posedge reloj_actualizacion)
+    always @ (posedge reloj_actualizacion or posedge reset)
         begin
-            contador_actualizar <= contador_actualizar +1;
+            if (reset)
+                contador_actualizar <= 0;
+            else
+                contador_actualizar <= ~contador_actualizar;
         end
     
 endmodule

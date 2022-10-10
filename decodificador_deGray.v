@@ -12,17 +12,26 @@
 
 
 module decodificador_deGray(
-    input clk,
-    input [3:0] a,
+    input clk, //100 MHz
+    input reset, //Entrada del boton
+    input [3:0] a, //Entrada de los conmutadores
     output [3:0] led,
+    output reg led_reset,
     output [7:0] anodo,
     output [6:0] catodos
     );
     
     wire [3:0] bin;
     
-    lectura_codigoGray L (a, bin); // L por lectura
-    encender_lucesLED E (bin, led); //E por encender
-    display_7segmentos S (clk, bin, anodo, catodos); //S por segmentos
+    //Encender un LED para indicar el funcionamiento del reset
+    always @ (reset)
+    if (reset)
+        led_reset = 1;
+    else
+        led_reset = 0;
+    
+    lectura_codigoGray L (a, clk, reset, bin); // L por lectura
+    encender_lucesLED E (bin, clk, reset, led); //E por encender
+    display_7segmentos S (clk, reset, bin, anodo, catodos); //S por segmentos
     
 endmodule
