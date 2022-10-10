@@ -53,7 +53,7 @@ Diagrama de Bloques:
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los switches en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces LED, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces LED; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
 
 
-### Representacion general
+### Diagrama de Bloques: Representacion general
 
 ![d5d8b3a0-5005-492a-93b9-d065536167dd](https://user-images.githubusercontent.com/110042626/194796472-c744d1e3-d0a3-4859-8be5-923160706dde.jpg)
 
