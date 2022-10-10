@@ -57,5 +57,7 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 ![d5d8b3a0-5005-492a-93b9-d065536167dd](https://user-images.githubusercontent.com/110042626/194796472-c744d1e3-d0a3-4859-8be5-923160706dde.jpg)
 
+##  Ejemplo y análisis de una simulación
+
 
 
