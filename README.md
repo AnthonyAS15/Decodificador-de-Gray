@@ -30,7 +30,7 @@ Este subsistema toma los datos en código binario del primer subsistema, y su re
 ## Funcionamiento fundamental
 ### • Subsistema de lectura y decodificación de código Gray
 
-El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, los datos recibidos son transformados a código binario.
+El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, los datos recibidos son transformados a código binario. En conjunto de dos parametros de entrada *clk* y el *reset*.
 
 #### Diagrama de Bloques:
 
