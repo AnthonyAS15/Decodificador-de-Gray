@@ -36,32 +36,34 @@ El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, l
 
 ![195003419-65fcd8fb-3634-47ff-8c6b-41cfbb70d7ec](https://user-images.githubusercontent.com/110042626/195004342-01c35836-5d48-4d93-abab-14eee7b664fd.jpg)
 
-Primeramente, tal y como se observa en el diagrama de bloques, el parámetro de entrada del subsistema van a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 **bits** a implementar".
+Tal y como se observa en el diagrama de bloques, el parámetro de entrada del subsistema van a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 **bits** a implementar". Cuya salida sera el codigo binario traducido.
 
 
 
 ### • Subsistema de despliegue de código ingresado traducido a formato binario en luces **LED**
 
-El subsistema toma los datos ya convertidos a código binario en el subsistema anterior, y los desplegara en 4 luces **LED**
+El subsistema toma los datos ya convertidos a código binario en el subsistema anterior, y los desplegara en 4 luces **LED**. Al igual que dos parametros mas de entrada que seran el *clk* y el *reset*.
 
 #### Diagrama de Bloques:
 
 ![195003749-f8bfb28f-2250-4ef2-9d1b-0bfb7b1cd86a](https://user-images.githubusercontent.com/110042626/195004360-fd09dc97-8ad0-466f-b54f-60f4b6aafea9.jpg)
 
-AL igual que con el subsistema anterior en el diagrama de bloques, el parámetro de entrada del subsistema van a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario.
+AL igual que con el subsistema anterior en el diagrama de bloques, el parámetro de entrada del subsistema van a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario. De la misma manera el sistema representara por medio de una **LED** la combrobacion del boton *reset* utilizado.
 
 
 
 ### • Subsistema de despliegue de código decodificado en ***display*** de 7 segmentos
 
-Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con **LEDs**, para representarlo finalmente en el ***display*** de 7 segmentos.
+Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray, transformados a código binario representados con **LEDs**, para representarlo finalmente en el ***display*** de 7 segmentos. En conjunto de dos parametros de entrada que seran el *clk* y el *reset*.
+
 
 #### Diagrama de Bloques:
 
 ![Diseño Diagramas3 0-Página-7 drawio (4)](https://user-images.githubusercontent.com/110042626/195003824-95ba9ec1-089b-49cf-a191-c873a6525c7a.png)
 
 
-AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces **LED**; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
+AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces **LED**; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal. De la misma manera se contara con una **LED** que se podra utilizar para la combrobacion del boton *reset* utilizado.
+
 
 
 
@@ -81,11 +83,11 @@ Seguidamente, para la realización del último subsistema, se toman los datos en
 
 #### Análisis de una simulación:
 
-Elaboracion simulacion **Testbench** del ejemplo implementado en cada subsistema, para obtener la simulaciones a nivel RTL, para el caso.
+Elaboracion simulacion **Testbench** del ejemplo implementado en cada subsistema, para obtener la simulacion a nivel RTL.
 
 ![1c4d1a08-d108-4bc3-8684-e7e197e38a5d](https://user-images.githubusercontent.com/110042626/195001128-b8679ed6-c5be-46e7-a03f-cb68cc6f6513.jpg)
 
-De manera que tal y como se observa en el resultado, el **Waveform** obtenido por Vivado nos representa como la entrada del ejemplo '0100' en codigo de Gray(por medio de los **switches**), tranformado en el primer subsistema a codigo binario, obteniendo '0111' representacion '7'. Al final el ultimo subsistema se encarga de los cátodos y ánodos correspondientes que se encargan de generar el dígito '7', representado en un solo panel, a encontarse en unidades.
+De manera que tal y como se observa en el resultado, el **Waveform** obtenido por Vivado nos representa como la entrada del ejemplo '0100' en codigo de Gray, se tranforma gracias al primer subsistema a codigo binario, obteniendo '0111'. Al final el ultimo subsistema se encarga de los cátodos y ánodos correspondientes que se encargan de generar el dígito, en este caso '7'.
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
