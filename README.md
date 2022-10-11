@@ -81,8 +81,11 @@ Seguidamente, para la realización del último subsistema, se toman los datos en
 
 #### Análisis de una simulación:
 
+Elaboracion simulacion **Testbench** del ejemplo implementado en cada subsistema, para obtener la simulaciones a nivel RTL, para el caso.
+
 ![1c4d1a08-d108-4bc3-8684-e7e197e38a5d](https://user-images.githubusercontent.com/110042626/195001128-b8679ed6-c5be-46e7-a03f-cb68cc6f6513.jpg)
 
+De manera que tal y como se observa en el resultado, el **Waveform** obtenido por Vivado nos representa como la entrada del ejemplo '0100' en codigo de Gray(por medio de los **switches**), tranformado en el primer subsistema a codigo binario, obteniendo '0111' representacion '7'. Al final el ultimo subsistema se encarga de los cátodos y ánodos correspondientes que se encargan de generar el dígito '7', representado en un solo panel, a encontarse en unidades.
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
