@@ -87,7 +87,7 @@ Elaboracion simulacion **Testbench** del ejemplo implementado en cada subsistema
 
 ![1c4d1a08-d108-4bc3-8684-e7e197e38a5d](https://user-images.githubusercontent.com/110042626/195001128-b8679ed6-c5be-46e7-a03f-cb68cc6f6513.jpg)
 
-De manera que tal y como se observa en el resultado, el **Waveform** obtenido por Vivado nos representa como la entrada del ejemplo '0100' en codigo de Gray, se tranforma gracias al primer subsistema a codigo binario, obteniendo '0111'. Al final el ultimo subsistema se encarga de los cátodos y ánodos correspondientes que se encargan de generar el dígito, en este caso '7'.
+Como se observa en el resultado, el ***Waveform*** obtenido por Vivado nos representa como la entrada del ejemplo '0100' en codigo de Gray, se tranforma gracias al primer subsistema a codigo binario, obteniendo '0111'. Al final, el último subsistema se encarga de los cátodos y ánodos correspondientes que se encargan de generar el dígito, en este caso '7'.
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
 
