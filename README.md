@@ -48,7 +48,7 @@ El subsistema toma los datos ya convertidos a código binario en el subsistema a
 
 ![leds](https://user-images.githubusercontent.com/110042626/194828957-4c45f1c9-35b4-42e5-98ef-dcb4db6aea9e.jpg)
 
-AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario.
+AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario.
 
 
 
@@ -66,7 +66,7 @@ AL igual que con el subsistema anterior en el diagrama de bloques, el parametro 
 
 ##  Ejemplo y análisis de una simulación
 
-Primeramente, como ejemplo, escogimos un Código Gray de 4 bits para poner a prueba los subsistemas. Para este caso se utilizó el ejemplo '0100' en código de gray, para ingresarlo utilizamos cuatro conmutadores, los cuatro switches, y los activamos en base a '0'=Switch abajo '1'=Switch arriba. Una vez ingresados el código se hace uso del primer subsistema para convertir su valor en binario; seguidamente del segundo subsistema que buscara representar este código binario, previamente obtenido, por medio de luces **LED**, para este ejemplo obtendriamos '0111' ('0'=**LED** apagada '1'=**LED** encendida).
+Primeramente, como ejemplo, escogimos un Código Gray de 4 bits para poner a prueba los subsistemas. Para este caso se utilizó el ejemplo '0100' en código de Gray, para ingresarlo utilizamos cuatro conmutadores, los cuatro ***switches***, y los activamos en base a '0'=***Switch*** abajo '1'=***Switch*** arriba. Una vez ingresados el código se hace uso del primer subsistema para convertir su valor en binario; seguidamente del segundo subsistema que buscara representar este código binario, previamente obtenido, por medio de luces **LED**, para este ejemplo obtendriamos '0111' ('0'=**LED** apagada '1'=**LED** encendida).
 
 #### Representacion binario en **LED**:
 
@@ -108,7 +108,7 @@ Seguidamente, para la realización del último subsistema, se toman los datos en
 
 ![bd213152-ad7a-4fda-9e24-2e82d0307d07](https://user-images.githubusercontent.com/110042626/194801235-36d773a5-4554-4667-8dd1-29996cbbc452.jpg)
 
-Como se puede observar en la imagen anterior, específicamente en el apartado de Setup, se puede ver que la velocidad máxima del reloj posible corresponde a aproximadamente 6 ns, lo cual equivale a 167 Mhz.
+Como se puede observar en la imagen anterior, específicamente en el apartado de ***Setup***, se puede ver que la velocidad máxima del reloj posible corresponde a aproximadamente 6 ns, lo cual equivale a 167 Mhz.
 
 
 
