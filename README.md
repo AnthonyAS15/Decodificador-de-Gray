@@ -34,7 +34,7 @@ El subsistema va a tomar los 4 conmutadores el código de Gray. Luego de esto, l
 
 #### Diagrama de Bloques:
 
-![lectura](https://user-images.githubusercontent.com/110042626/194828892-24d7c135-d5d5-4efa-920d-3cc75b72f766.jpg)
+![194972360-88259485-1b5e-45fe-9a51-171d53266d1f](https://user-images.githubusercontent.com/110042626/195001077-bd7d3496-fadd-4d10-adfa-cf23170e3f29.jpg)
 
 Primeramente, tal y como se observa en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 **bits** a implementar".
 
@@ -46,7 +46,7 @@ El subsistema toma los datos ya convertidos a código binario en el subsistema a
 
 #### Diagrama de Bloques:
 
-![leds](https://user-images.githubusercontent.com/110042626/194828957-4c45f1c9-35b4-42e5-98ef-dcb4db6aea9e.jpg)
+![194972403-c85e437c-9f40-4e98-ab73-eb456443f9f1](https://user-images.githubusercontent.com/110042626/195001091-3a558025-be0a-4595-b9b9-e52ba37c435b.jpg)
 
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario.
 
@@ -58,7 +58,7 @@ Por ultimo, el subsistema vuelve a tomar los 4 conmutadores del código de Gray,
 
 #### Diagrama de Bloques:
 
-![Diseño Diagramas3 0-Página-7 drawio (2)](https://user-images.githubusercontent.com/110042626/194853222-93b2d5bf-0b82-420c-bc9b-3476d78473d8.png)
+
 
 AL igual que con el subsistema anterior en el diagrama de bloques, el parametro de entrada del subsistema va a ser los ***switches*** en la tarjeta Nexys, y se traduciran en codigo binario, para esta lectura nos basaremos en la "Tabla 1: Código de Gray de 4 bits a implementar", donde el resultado se vera representado en la tarjeta por medio de cuatro luces **LED**, que representaran su respectivo codigo binario. Toma valor representadao en codigo binario, mostrado a traves de las cuatro luces **LED**; este valor lo convierte en decimal, luego en base a sus unidades o decimas, se representa desplegado en los dispositivos de 7 segmentos disponibles en la placa, de forma decimal.
 
@@ -80,20 +80,7 @@ Seguidamente, para la realización del último subsistema, se toman los datos en
 
 #### Análisis de una simulación:
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+![1c4d1a08-d108-4bc3-8684-e7e197e38a5d](https://user-images.githubusercontent.com/110042626/195001128-b8679ed6-c5be-46e7-a03f-cb68cc6f6513.jpg)
 
 
 ##  Consumo de recursos en la FPGA y del consumo de potencia reportado por Vivado
